@@ -1,0 +1,93 @@
+#out {
+	 min-height: 100%;
+	 min-width: 1024px;
+ 	width: 100%;
+ 	height: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+#in {
+	display: inline-block;
+	background-color: #F1F2F2;
+	height: 680px;
+	width: 50%;
+	border-radius: 15px;
+	margin-top: 20px;
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+h1 {
+	position: relative;
+	top: 50px;
+}
+
+input {
+	position: relative;
+	top: 50px;
+	height: 30px;
+	font-family: 'Baloo Da 2', cursive;
+}
+
+::placeholder {
+	text-align: center;
+	font-family: 'Baloo Da 2', cursive;
+}
+
+button {
+	position: relative;
+	top: 60px;
+	width: 100px;
+    height: 40px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-family: 'Baloo Da 2', cursive;
+    border-radius: 20px;
+    font-size: large;
+}
+
+.loading {
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+}
+
+.loading:after {
+	content: "";
+	display: block;
+	width: 64px;
+	height: 64px;
+	border-radius: 50%;
+	border: 6px solid #00f;
+	position: relative;
+	top: 200px;
+	border-color: #000 transparent #000 transparent;
+	animation: loading 1.2s linear infinite;
+}
+
+@keyframes loading {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+h2 {
+	position: relative;
+	top: 100px;
+}
+
+img {
+	position: relative;
+	top: 100px;
+	margin: 0 auto;
+	display: block;
+	width: 200px;
+	height: 200px;
+}

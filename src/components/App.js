@@ -3,16 +3,6 @@ import { connect } from 'react-redux';
 import './App.css';
 import { requestLocationID, updateValue, requestTemp } from '../redux/actions';
 import images from './images';
-import c from './images/c.jpg';
-import h from './images/h.jpg';
-import hc from './images/hc.jpg';
-import hr from './images/hr.jpg';
-import lc from './images/lc.jpg';
-import lr from './images/lr.jpg';
-import s from './images/s.jpg';
-import sl from './images/sl.jpg';
-import sn from './images/sn.jpg';
-import t from './images/t.jpg';
 
 const mapStateToProps = (state) => {
 	return {

@@ -48,6 +48,7 @@ button {
     font-family: 'Baloo Da 2', cursive;
     border-radius: 20px;
     font-size: large;
+    outline: none;
 }
 
 .loading {
